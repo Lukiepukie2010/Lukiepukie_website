@@ -15,3 +15,12 @@ p {
 h3 {
     font-family: 'Papyrus', sans-serif;
 }
+
+em {
+    color: orange;
+    cursor: pointer;
+}
+
+em:hover {
+    text-decoration: underline
+}
