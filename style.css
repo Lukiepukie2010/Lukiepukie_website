@@ -1,6 +1,6 @@
 h1 {
     color: black;
-    font-style: papyrus;
+    font-family: 'Papyrus', sans-serif;
 }
 
 strong {
@@ -9,9 +9,9 @@ strong {
 }
 
 p {
-    font: papyrus
+    font-family: 'Papyrus', sans-serif;
 }
 
 h3 {
-    font: papyrus
+    font-family: 'Papyrus', sans-serif;
 }
