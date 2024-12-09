@@ -1,9 +1,13 @@
 h1 {
     color: black;
-    font-style: italic;
+    font-style: papyrus;
 }
 
 strong {
     color: yellow;
     background: red;
+}
+
+p {
+    font: papyrus
 }
