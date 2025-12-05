@@ -1,0 +1,103 @@
+div {
+    margin: 50px 200px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro div {
+    margin: 50px 100px;
+}
+
+.intro div:hover {
+    animation-name: kopje;
+    animation-duration: 2s;
+}
+
+.intro p {
+    padding: 10px 20px;
+}
+
+div:not(.kopje, .navigatiebalk) {
+    background: linear-gradient(to right, rgb(81, 94, 158), rgb(36, 94, 255));
+}
+
+.kopje {
+    background: linear-gradient(to left, rgb(20, 106, 155), rgb(8, 46, 75));
+}
+
+.titel-balk{
+    height: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 75px;
+}
+body {
+    background-image: url('Ai-home\ image.jpg');
+    color: white;
+}
+.navigatiebalk {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+ .navigatiebalk a:hover {
+    color: rgb(137, 71, 141);
+}
+
+.kopje a:hover{
+    color: rgb(144, 207, 236);
+}
+.nav-link{
+    color: black;
+    border: 5px;
+}
+
+.p1-titel{
+    text-align: center;
+    padding: 50px;
+}
+
+.p2-titel {
+    text-align: center;
+    padding: 50px;
+}
+
+.p3-titel {
+    text-align: center;
+    padding: 50px;
+}
+
+.p4-titel {
+    text-align: center;
+    padding: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.kopje {
+    padding: 10px 100px;
+}
+
+.intro img {
+    height: 100px;
+    border-radius: 10px;
+    display: sticky;
+}
+
+@keyframes kopje {
+    from {margin: 50px 100px;}
+    to {margin: 25px 50px;}
+}
+
